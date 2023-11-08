@@ -1,10 +1,10 @@
-package com.nishan.olderservice;
+package com.nishan.orderservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class OlderServiceApplicationTests {
+class OrderServiceApplicationTests {
 
     @Test
     void contextLoads() {
