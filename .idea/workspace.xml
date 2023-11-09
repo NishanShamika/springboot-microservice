@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b02ce7a3-1c7e-426b-84f1-0c4662cc4643" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="572b9b18-84c4-48c8-a6ec-97d41e23056c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/nishan/inventoryservice/dto/InventoryResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/nishan/orderservice/config/WebClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/nishan/orderservice/dto/InventoryResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/nishan/inventoryservice/controller/InventoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/nishan/inventoryservice/controller/InventoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/nishan/inventoryservice/repository/InventoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/nishan/inventoryservice/repository/InventoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/nishan/inventoryservice/service/InventoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/nishan/inventoryservice/service/InventoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/nishan/orderservice/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/nishan/orderservice/service/OrderService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +24,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -37,10 +41,7 @@
   "customColor": "",
   "associatedIndex": 3
 }]]></component>
-  <component name="ProjectId" id="2XuLZ5ipMZ3p37k6SVjdQpSbHgM" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectId" id="2Xwj80ymfvZ7JjJP5AuVFaXuhvX" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -53,9 +54,11 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Program Files/Java/apache-maven-3.9.5/bin/mvn",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -63,6 +66,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.nishan.orderservice.dto" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -71,15 +79,9 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.InventoryServiceApplication">
-    <configuration name="InventoryServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="InventoryServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="inventory-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.nishan.inventoryservice.InventoryServiceApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.nishan.inventoryservice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -98,21 +100,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Spring Boot.InventoryServiceApplication" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b02ce7a3-1c7e-426b-84f1-0c4662cc4643" name="Changes" comment="" />
-      <created>1699474073407</created>
+      <changelist id="572b9b18-84c4-48c8-a6ec-97d41e23056c" name="Changes" comment="" />
+      <created>1699546874107</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1699474073407</updated>
-      <workItem from="1699474075150" duration="2516000" />
+      <updated>1699546874107</updated>
+      <workItem from="1699546877042" duration="6465000" />
     </task>
     <servers />
   </component>
